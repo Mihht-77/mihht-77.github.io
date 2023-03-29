@@ -1,0 +1,153 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+
+header .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4px;
+    width: 70px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/*Está en pruebas, puede borrarse más adelante*/
+header a:hover {
+    text-decoration: none;
+    font-weight: lighter;
+    color: gainsboro;
+}
+
+header {
+    /*background: rgb(4,78,255);*/
+    /*background: rgb(23, 23, 24);*/
+    /*background: linear-gradient(90deg, rgba(4,78,255,0.9) 0%, rgba(4,78,255,0.9) 100%);*/
+    background: linear-gradient(90deg, rgba(29, 29, 29, 0.9) 0%, rgba(30, 30, 31, 0.9) 100%);
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    z-index: 1000;
+}
+
+/*Inicia main-inicio*/
+/*Probar agregar un 'margin-top: 19vh*/
+#inicio-menu {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-image: url(../images/medio-ambiente.jpg);
+    padding-top: 10px;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+#inicio-menu a {
+    font-family: 'Inter', sans-serif;
+   text-decoration: none;
+   color: #fff;
+   background-color: rgb(2, 167, 49);
+   line-height: 0px;
+   padding: 5px 15px;
+   border-radius: 5px;
+}
+
+#inicio-menu h1 {
+    font-size: 70px;
+    line-height: 70vh;
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#inicio-menu h3 {
+    font-size: 30px;
+    line-height: 5vh;
+    color: #000/*#fff*/;
+}
+
+/*Fondo svg es experimental*/
+#nosotros-menu {
+    color: #000;
+    height: 60vh;
+    padding: 10vh 0vh 30vh 0vh;
+    background-image: url(../images/ahead-background-blur-blurred-bokeh-concept-environmental-faster-fresh.jpg);
+    background-size: cover;
+}
+
+#nosotros-menu p {
+    text-align: left;
+    color: #000;
+    /*padding-left: 10vh;
+    padding-right: 100vh;*/
+    padding-left: 15vh;
+    width: 1000px;
+}
+
+/*#nosotros-menu p {
+    text-align: justify;
+    padding-left: 10vh;
+    padding-right: 100vh;
+}*/
+
+#nosotros-menu h2 {
+    font-size: 50px;
+    text-align: left;
+    padding-top: 13vh;
+    padding-left: 15vh;
+}
+
+hr {
+    height: 3px;
+    background-color: #000;
+    color: #000;
+    margin-left: 15vh;
+    margin-right: 40vh;
+}
+
+#contenido-menu {
+    height: 100vh; 
+}
+
+#contenido-menu h2 {
+    text-align: justify;
+    padding-top: 20vh;
+    padding-left: 5vh;
+}
+
+.noticias-bar{
+    height: 28px;
+    padding-top: 7px;
+    color: #fff;
+    background-color: rgb(0, 113, 32);
+}
+
+.titulo-main{
+    color: #fff;
+}
