@@ -1,0 +1,99 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header .main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: #fff;
+}
+
+/*Está en pruebas, puede borrarse más adelante*/
+header a:hover {
+    text-decoration: none;
+    font-weight: lighter;
+    color: gainsboro;
+}
+
+header {
+    /*background: rgb(4,78,255);*/
+    /*background: rgb(23, 23, 24);*/
+    /*background: linear-gradient(90deg, rgba(4,78,255,0.9) 0%, rgba(4,78,255,0.9) 100%);*/
+    background: linear-gradient(90deg, rgba(29, 29, 29, 0.9) 0%, rgba(30, 30, 31, 0.9) 100%);/*Especial 13 aniversario*/
+    backdrop-filter: blur(6px);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*Inicia main-inicio*/
+/*Probar agregar un 'margin-top: 19vh*/
+/*Fondo svg es experimental*/
+#nosotros-menu {
+    height: 60vh;
+    padding: 10vh 0vh 30vh 0vh;
+    background-image: url(../images/El-camino-hacia-un-futuro-sustentable.jpg);
+    background-size: cover;
+}
+
+#nosotros-menu p {
+    color: #000;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 0vh;
+    padding-left: 10vh;
+    width: 750px;
+}
+
+#nosotros-menu h2 {
+    color: #000;
+    line-height: 20px;
+    font-size: 55px;
+    margin-top: 25vh;
+    text-align: left;
+    padding-top: 0vh;
+    padding-left: 10vh;
+}
+
+#contenido-menu {
+    height: 100vh; 
+}
+
+#contenido-menu h2 {
+    text-align: justify;
+    padding-top: 20vh;
+    padding-left: 5vh;
+}
+
+.master{
+    padding-inline: 15vh;
+    padding-block: 10vh;
+    background-color: #fff;
+}
